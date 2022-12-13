@@ -45,7 +45,15 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="loading">
+  <div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
@@ -89,6 +97,11 @@
 
     </div>
   </header><!-- End Header -->
+
+
+
+  
+ 
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
@@ -1202,6 +1215,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var preloader = document.getElementById('loading');
+    function myFunction(){
+      preloader.style.display='none';
+    }
+  </script>
+  
 
 </body>
 
