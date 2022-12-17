@@ -627,8 +627,11 @@ section {
     
   }
   .player{
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin-left: -80px;
+    margin-top: -30px;
   }
   
 }
